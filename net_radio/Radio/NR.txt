@@ -1,0 +1,43 @@
+Radio,#genre#
+1001Play FM,http://live.ximalaya.com/radio-first-page-app/live/658/64.m3u8
+1047 Nice Fm,http://live.ximalaya.com/radio-first-page-app/live/643/64.m3u8
+90.7mixfm,https://lhttp.qingting.fm/live/15318146/64k.mp3
+Asia FM,https://lhttp.qingting.fm/live/5022405/64k.mp3
+BBC Radio 1,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio=320000.m3u8
+BBC Radio 1 Dance,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one_dance/bbc_radio_one_dance.isml/bbc_radio_one_dance-audio=320000.m3u8
+BBC Radio 1 Relax,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one_relax/bbc_radio_one_relax.isml/bbc_radio_one_relax-audio=320000.m3u8
+BBC Radio 1Xtra,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_1xtra/bbc_1xtra.isml/bbc_1xtra-audio=320000.m3u8
+BBC Radio 2,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio=320000.m3u8
+BBC Radio 3,http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio=320000.m3u8
+Big Radio FM93.6,http://live.ximalaya.com/radio-first-page-app/live/1879/64.m3u8
+CGTNArabic,http://livear.cgtn.com/200a/prog_index.m3u8
+CGTNDocumentary,http://livedoc.cgtn.com/200d/prog_index.m3u8
+CGTNEnglish,http://live.cgtn.com/200/prog_index.m3u8
+CGTNEnglish,http://live.cgtn.com/1000/prog_index.m3u8
+CGTNFrench,http://livefr.cgtn.com/200f/prog_index.m3u8
+CGTNRussian,http://liveru.cgtn.com/200r/prog_index.m3u8
+CGTNSpanish,http://livees.cgtn.com/200e/prog_index.m3u8
+Capital FM,https://playerservices.streamtheworld.com/api/livestream-redirect/CAPITAL958FM.mp3
+DRHK,http://sc.digitalradiohk.net:8394
+FM Uruma,https://mtist.as.smartstream.ne.jp/30011/livestream/chunklist.m3u8
+FM103.5Cool Radio,http://live.ximalaya.com/radio-first-page-app/live/551/64.m3u8
+Friendship Radio,http://us1new.listen2myradio.com:2199/tunein/tkuubxrv.pls
+Hitsujikai Radio,http://streaming.radio.co/se4a8e6a93/listen
+ICRT,http://live.leanstream.co/ICRTFM-MP3
+ICRT,http://live.leanstream.co/ICRTFM?args=tunein_aac
+Mandarin Radio,http://streaming.radionomy.com/JamendoLounge
+Money 893 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/MONEY_893AAC.aac
+Money FM,https://playerservices.streamtheworld.com/api/livestream-redirect/MONEY_893AAC.aac
+Moon Mission Recordings,http://www.internet-radio.com/servers/tools/playlistgenerator/?u=http://uk5.internet-radio.com:8306/listen.pls&t=.m3u
+NHK World TV,http://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index_2M.m3u8
+Nightwave Plaza OPUS 96,http://radio.plaza.one/opus
+Phate,http://phate.io/listen
+Power FM,https://crystalout.surfernetwork.com:8001/KVSP_MP3
+R/a/dio,https://relay0.r-a-d.io/main.mp3
+Radio Hayama,http://www.internet-radio.com/servers/tools/playlistgenerator/?u=http://199.195.194.140:8073/listen.pls?sid=1&t=.m3u
+SPH 963 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/HAO_963AAC.aac
+Taiwan Good TV Truth,http://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch2-3.m3u8
+UFM 100.3 Radio,http://playerservices.streamtheworld.com/api/livestream-redirect/UFM_1003AAC.aac
+Xuzhou,http://lhttp.qingting.fm/live/4923/64k.mp3
+YO!FM923,http://live.ximalaya.com/radio-first-page-app/live/2670/64.m3u8
+Yes FM,https://playerservices.streamtheworld.com/api/livestream-redirect/YES933AAC.aac
