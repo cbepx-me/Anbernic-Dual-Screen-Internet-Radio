@@ -20,6 +20,7 @@ import zipfile
 import struct
 import configparser
 import fcntl
+import datetime
 
 VERSION = "1.0.2"
 
@@ -133,7 +134,7 @@ class InputHandler:
         try:
             self.board_info = Path("/mnt/vendor/oem/board.ini").read_text().splitlines()[0]
         except:
-            self.board_info = "RG35xxH"
+            self.board_info = "RGds"
         self.device_path = self._find_anbernic_device()
         self.dev_fd = None
 
@@ -307,7 +308,7 @@ class DualUIRenderer:
             else:
                 # 降级使用配置尺寸
                 res = RadioConfig.screen_resolutions().get(
-                    cfg.BOARD_MAPPING.get(board_info or "RG35xxH", 5), (640, 480, 11)
+                    cfg.BOARD_MAPPING.get(board_info or "RGds", 10), (640, 480, 11)
                 )
                 w, h = res[0], res[1]
             # 为 RGdsplus 特殊处理
@@ -680,9 +681,12 @@ class RadioApp:
         try:
             board_info = Path("/mnt/vendor/oem/board.ini").read_text().splitlines()[0]
         except:
-            board_info = "RG35xxH"
+            board_info = "RGds"
         self.board_info = board_info
         self.hw_info = self.cfg.BOARD_MAPPING.get(board_info, 5)
+
+        self.screenshot_dir = "/mnt/mmc/anbernic/screenshots"
+        os.makedirs(self.screenshot_dir, exist_ok=True)
 
         # 检测显示器数量
         sdl2.SDL_Init(sdl2.SDL_INIT_VIDEO)
@@ -733,6 +737,21 @@ class RadioApp:
 
     def reset_hint_timer(self):
         self.hint_timer = self.hint_timer_default
+
+    def take_screenshot(self):
+        try:
+            timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+            for idx, scr in enumerate(self.ui.screens):
+                img = scr["surface"]
+                if img.mode != "RGB":
+                    img = img.convert("RGB")
+                label = "upper" if idx == 0 else "lower"
+                filename = f"screenshot_{label}_{timestamp}.png"
+                filepath = os.path.join(self.screenshot_dir, filename)
+                img.save(filepath, "PNG")
+                LOGGER.info("Screenshot saved: %s", filepath)
+        except Exception as e:
+            LOGGER.error("Failed to save screenshot: %s", e)
 
     def _ready(self) -> None:
         target_path = [
