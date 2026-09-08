@@ -1,6 +1,6 @@
 # Anbernic Dual-Screen Internet Radio
 
-![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.2-blue.svg)
 ![Platform](https://img.shields.io/b/platform-Anbernic%20Dual%20Screen-green.svg)
 ![License](https://img.shields.io/b/license-MIT-yellow.svg)
 
