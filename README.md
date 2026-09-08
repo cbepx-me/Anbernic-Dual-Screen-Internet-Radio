@@ -19,7 +19,8 @@ A dedicated internet radio player for Anbernic dual-screen handhelds (e.g., RGds
 
 ## 📸 Screenshots
 
-*（Insert actual screenshots here, showing the spectrum on the upper screen and the UI on the lower screen.）*
+<img width="682" height="512" alt="screenshot_upper_20260908_093436" src="https://github.com/user-attachments/assets/6773adee-25ce-4070-bc22-85e548bb1bf8" />
+<img width="682" height="512" alt="screenshot_lower_20260908_093436" src="https://github.com/user-attachments/assets/ac8ab3be-9054-4fdc-a7c0-a19bfb9e5bf8" />
 
 ## 📦 Installation
 
