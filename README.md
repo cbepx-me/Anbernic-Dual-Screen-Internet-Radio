@@ -1,8 +1,8 @@
 # Anbernic Dual-Screen Internet Radio
 
 ![Version](https://img.shields.io/badge/version-1.0.2-blue.svg)
-![Platform](https://img.shields.io/b/platform-Anbernic%20Dual%20Screen-green.svg)
-![License](https://img.shields.io/b/license-MIT-yellow.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 
 A dedicated internet radio player for Anbernic dual-screen handhelds (e.g., RGds, RGdsplus series). Utilizes the dual‑screen hardware to its full potential: the upper screen displays a dynamic spectrum, while the lower screen provides complete browsing, control, and status information, delivering an immersive listening experience.
 
